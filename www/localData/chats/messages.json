@@ -1,0 +1,27 @@
+[
+    {
+        "id":"1",
+        "type":"msg",
+        "title":"王总1",
+        "subTitle":"岩石工作室",
+        "date":1434521526,
+        "avatar":"images/person_avatar.jpg"
+    },
+    {
+        "id":"2",
+        "type":"news",
+        "title":"最新动态",
+        "subTitle":"最新动态1最新动态1",
+        "date":1434435600,
+        "avatar":"images/new_logo.jpg"
+    },
+    {
+        "id":"3",
+        "type":"boutique",
+        "title":"精品屋",
+        "subTitle":"精品屋精品屋",
+        "date":1432102800,
+        "avatar":"images/jp_logo.jpg"
+    }
+]
+

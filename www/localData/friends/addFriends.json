@@ -1,0 +1,15 @@
+[
+    {
+        "id":"1",
+        "personName":"王总",
+        "avatar":"images/person_avatar.jpg",
+        "companyName":"岩石工作室"
+    },
+    {
+        "id":"2",
+        "personName":"郭总",
+        "avatar":"images/person_avatar.jpg",
+        "companyName":"天权软件"
+    }
+]
+

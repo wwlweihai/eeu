@@ -1,0 +1,19 @@
+<ion-view view-title="最新消息">
+    <ion-content class="view-body has-header newsDetail-body">
+        <div class="my-panel">
+            <h3 class="padding balanced">
+                最新消息
+            </h3>
+            <div class="padding">
+                {{data.newsDetail.title}}
+            </div>
+            <div class="padding">
+                <img ng-src="{{data.newsDetail.image}}" alt="" style="width: 100%"/>
+            </div>
+            <div class="padding" ng-bind-html="data.newsDetail.introtext">
+            </div>
+            <div class="padding" ng-bind-html="data.newsDetail.fulltext">
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

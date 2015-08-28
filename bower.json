@@ -1,0 +1,12 @@
+{
+  "name": "eeu",
+  "private": true,
+  "devDependencies": {
+    "ionic": "driftyco/ionic-bower#master",
+    "fontawesome": "~4.3.0",
+    "restangular": "~1.5.1",
+    "lodash": "~3.9.3",
+    "angular-cookies": "~1.4.3",
+    "angular-local-storage": "~0.2.2"
+  }
+}

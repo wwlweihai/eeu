@@ -1,0 +1,27 @@
+[
+    {
+        "id":"1",
+        "title":"美酒一瓶",
+        "avatar":"images/goods-avatar.png",
+        "brief":"简要介绍，简要介绍简要介绍，简要介绍简要介绍，简要介绍",
+        "purchasenNum":33,
+        "date":1434521526
+    },
+    {
+        "id":"2",
+        "title":"美酒一瓶2",
+        "avatar":"images/goods-avatar.png",
+        "brief":"简要介绍，简要介绍简要介绍，简要介绍简要介绍，简要介绍",
+        "purchasenNum":33,
+        "date":1434435600
+    },
+    {
+        "id":"3",
+        "title":"美酒一瓶3",
+        "avatar":"images/goods-avatar.png",
+        "brief":"简要介绍，简要介绍简要介绍，简要介绍简要介绍，简要介绍",
+        "purchasenNum":33,
+        "date":1432102800
+    }
+]
+

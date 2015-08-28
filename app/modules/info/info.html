@@ -1,0 +1,153 @@
+<ion-view view-title="帳戶資料">
+    <ion-content class="view-body has-header info-body">
+        <div class="info-panel">
+            <div class="">
+                <img ng-src="{{user.image}}" alt=""/>
+            </div>
+            <div class="row">
+                <div class="col col-90">
+                    會員賬戶：ID #{{user.userID}}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-90">
+                    會員號碼：{{user.userName}}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-90">
+                    會員密碼：******
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-90">
+                    聯絡電話：6252 2444
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-90">
+                    電郵地址：{{user.email}}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-90">
+                    會員類別：{{user.group | menberGroup}}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-90">
+                    牌照一名稱：{{user.license1}}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-90">
+                    牌照一到期日：{{user.license1_date}}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-90">
+                    牌照二名稱：{{user.license2}}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-90">
+                    牌照二到期日：{{user.license2_date}}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-90">
+                    牌照三名稱：{{user.license3}}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-90">
+                    牌照三到期日：{{user.license3_date}}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-90">
+                    牌照四名稱：{{user.license4}}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-90">
+                    牌照四到期日：{{user.license4_date}}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-90">
+                    牌照五名稱：{{user.license5}}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-90">
+                    牌照五到期日：{{user.license5_date}}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-90">
+                    牌照六名稱：{{user.license6}}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-90">
+                    牌照六到期日：{{user.license6_date}}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-90">
+                    牌照七名稱：{{user.license7}}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-90">
+                    牌照七到期日：{{user.license7_date}}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-90">
+                    牌照八名稱：{{user.license8}}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-90">
+                    牌照八到期日：{{user.license8_date}}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-90">
+                    牌照九名稱：{{user.license9}}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-90">
+                    牌照九到期日：{{user.license9_date}}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-90">
+                    牌照十名稱：{{user.license10}}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-90">
+                    牌照十到期日：{{user.license10_date}}
+                </div>
+            </div>
+
+            <div class="padding-top"></div>
+            <div class="row" ng-show="false">
+                <div class="col col-50 text-right">
+                    <button class="button button-small button-balanced edit-button">
+                        更改密碼
+                    </button>
+                </div>
+                <div class="col col-50 text-left">
+                    <button class="button button-small button-balanced edit-button">
+                        更改資料
+                    </button>
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

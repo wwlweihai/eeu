@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+@import (reference) "../../styles/dev/util";
+.course-body{
+    padding: 10px;
+    .course-list{
+        background-color: white;
+
+        .course-content{
+            .mutiline-ellipsis(2);
+            font-size: 14px;
+            font-weight: 500;
+        }
+        .course-author{
+            font-size: 13px;
+            color: grey;
+        }
+        .course-apply{
+            padding: 2px 12px;
+        }
+        .item{
+            padding-bottom: 5px;
+        }
+        .item:nth-child(2){
+            border-top: 0px !important;
+        }
+    }
+}

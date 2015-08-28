@@ -1,0 +1,19 @@
+[
+    {
+        "id":"1",
+        "personName":"王总",
+        "firstLetter":"w",
+        "avatar":"images/person_avatar.jpg",
+        "companyName":"岩石工作室",
+        "remarkInfo":""
+    },
+    {
+        "id":"2",
+        "personName":"郭总",
+        "firstLetter":"g",
+        "avatar":"images/person_avatar.jpg",
+        "companyName":"天权软件",
+        "remarkInfo":"小郭"
+    }
+]
+

@@ -1,0 +1,37 @@
+<ion-view view-title="主頁">
+    <ion-content class="view-body has-header index-body">
+        <div class="banner">
+            <ion-slide-box auto-play="true" show-pager="false">
+                <ion-slide ng-repeat="banner in bannerList">
+                    <div class="slider-item">
+                        <img ng-src="{{banner.image}}" />
+                    </div>
+                </ion-slide>
+            </ion-slide-box>
+        </div>
+        <div class="newsList">
+            <div class="padding">
+                <button class="button button-clear button-stable" style="color: black;">
+                    最新消息
+                </button>
+            </div>
+            <div class="list">
+                <div class="item row" ng-repeat="news in newsList" ui-sref="menu.newsDetail({id:news.id})">
+                    <div class="col col-33">
+                        <img ng-src="{{news.image}}" alt="" style="width: 100%"/>
+                    </div>
+                    <div class="col col-67">
+                        <div class="news-date">
+                            {{news.created}}
+                        </div>
+                        <div class="news-title">
+                            {{news.title}}
+                        </div>
+                        <div class="news-detail" ng-bind-html="news.introtext">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,9 @@
+.idea
+.tmp
+bower_components
+node_modules
+hooks
+platforms
+plugins
+resources
+test
