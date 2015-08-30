@@ -14,13 +14,7 @@ function signIn($rootScope,localStorageService,Restangular,$state,$ionicHistory,
     var signInReqParams = {task:"login"};
     $scope.form = {};
     $scope.signIn = signIn;
-    //$scope.goBack = goBack;
     function signIn(){
-        //signInReq.post("",
-        //    {tel:$scope.form.tel,password:$scope.form.pwd},signInReqParams)
-        //    .then(function(result) {
-        //    console.log(result);
-        //});
         var formData = new FormData();
         formData.append('tel', $scope.form.tel);
         formData.append('password', $scope.form.pwd);
